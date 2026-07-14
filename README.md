@@ -60,7 +60,8 @@ A console‑based C++ application that demonstrates **real‑world usage of core
 1. Open Dev‑C++ or Code::Blocks.  
 2. Create a new project or just open the single `.cpp` file.  
 3. Press **F9** (Compile) and **F10** (Run) – no extra libraries or include paths needed.
-👤 Author
+   
+## 👤 Author
 Diya
-License:
+## License:
 MIT License -feel free to use, modify, and distribute
