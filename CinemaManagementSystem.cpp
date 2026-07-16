@@ -28,7 +28,7 @@ struct Booking {
     double price;
     string bookingTime;
 
-    // Doubly Linked List pointers
+
     Booking* prev;
     Booking* next;
 
@@ -46,7 +46,7 @@ struct Booking {
     int seatCode() const { return row * 100 + col; }
 };
 
-// ---------------- from DoublyLinkedList.h ----------------
+
 using namespace std;
 
 
@@ -120,7 +120,7 @@ public:
 // ---------------- from HashTable.h ----------------
 using namespace std;
 
-// HASH TABLE (separate chaining, built from scratch — not unordered_map)
+// HASH TABLE (separate chaining, built from scratch â€” not unordered_map)
 // Maps booking ID -> Booking* so search/cancel is O(1) average instead of
 // the O(n) linear scan the original project used.
 class HashTable {
@@ -220,7 +220,7 @@ private:
 
     // Equal names always land in the RIGHT subtree on insert (see insertRec),
     // so once we find a match we only need to keep walking right to collect
-    // every booking that shares this name — no double counting.
+    // every booking that shares this name â€” no double counting.
     void searchRec(BSTNode* node, const string& name, vector<Booking*>& out) const {
         if (node == nullptr) return;
         if (name < node->data->name) {
